@@ -1,0 +1,105 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    width: 95%;
+
+}   
+
+header{
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header img {
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+    float: right;
+  }
+
+header h1{
+    flex: 5;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: 2px 2px grey;
+    font-weight: bolder; 
+    font-size: 45px;
+}
+
+img{
+    right: 0px;
+}
+nav{
+    background-color: burlywood;
+    
+    display: flex;
+    width: 100%;
+}
+
+
+nav ul li{
+    display: inline;
+    margin: 60px;
+   font-family: 'Cinzel Decorative', cursive;;
+    font-size: 30px;
+    color: black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    text-align: justify;
+    display: inline;
+  
+    background-color: burlywood;
+    
+}
+
+section h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder; 
+    font-size: 35px;
+}
+main {
+    display: flex;
+  }
+  
+  article, section {
+    flex: 4;
+  }
+
+  article p{
+      margin: 50px;
+  }
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+  }
+
+  aside img {
+    max-width: 100%;
+  }
+  
+  aside a {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+
+  footer {
+    margin-top: 10px;
+    background-color: burlywood;
+    
+  }
+
+  footer p {
+    padding: 5px;
+    margin: 20px;
+  }
